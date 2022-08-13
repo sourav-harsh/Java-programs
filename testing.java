@@ -2,9 +2,9 @@ public class testing {
     private static int k;
 
     public static void main(String[] args) {
-        int [][] arr = new int[][]{{1,2,3},
-                                   {4,5,6},
-                                   {7,8,9}};
+        int [][] arr = new int[][]{{1,2,3,6},
+                                   {4,5,6,7},
+                                   {7,8,9,10}};
         // int i, j;
         // for (i = 0; i < 3; i++) {
         //     for (j = 0; j < 3; j++) {
@@ -26,6 +26,8 @@ public class testing {
         // for(int j=arr.length-1;j>=0;j--){
         //     System.out.println(arr[j][i]);
         // }
+        int arr_one[][] = new int[3][3];
+
         int j=arr.length-1;
         int sum=0;
         for(int i=0;i<=arr.length-1;i++){
